@@ -1,0 +1,12 @@
+h1
+{
+  color: blue;
+}
+
+body
+{
+  background-color: honeydew;
+  color: Maroon;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+  font-size: 16pt
+}

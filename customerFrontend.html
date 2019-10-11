@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="formChecker.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <center><h1>Game Shop</h1><br></center>
+  </head>
+  <body>
+<form action="customerBackend.php" action="formChecker.js" onsubmit="submit()" method="post">
+<center>
+
+Anodyne $10.00 <br>
+<img src="Anodyne.png" height="700" width="500"><br>
+Number of Copies:   <input type="number" id="ANO" min="0" name="Anodyne"><br>
+Risk of Rain 2 $19.99<br>
+<img src="ROR2.jpg" height="700" width="500"><br>
+Number of Copies:   <input type="number" id="ROR2" min="0" name="ROR2"><br>
+Super Mario Odyssey $59.99<br>
+<img src="Mario.jpg" height="700" width="500"><br>
+Number of Copies:   <input type="number" id="SMO" min="0" name="MarioOd"><br>
+
+Shipping<br>
+    <input type="radio" name="shipment" value="0" id="shipment" checked> Free 7 Day<br>
+    <input type="radio" name="shipment" value="5" id="shipment"> $5.00 3 Day<br>
+    <input type="radio" name="shipment" value="50" id="shipment"> $50.00 Overnight<br>
+
+            Email/Username: <input type="text" name="email" id="email"><br>
+            Password: <input type="password" name="password" id="password"><br>
+
+            <input type="submit" value="Submit" class="buttons">
+            <input type="reset" value="Reset" name="Reset" class="buttons">
+  </center>
+</form>
+      </body>
+</html>
